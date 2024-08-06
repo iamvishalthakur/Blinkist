@@ -12,3 +12,21 @@
 .right-nav {
   justify-content: space-between;
 }
+button {
+  background-color: rgb(57, 219, 122);
+  border: none;
+  color: rgb(7, 7, 54);
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "cera Pro" sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #45a049;
+}
+button:active {
+  background-color: #3e8e41;
+}
