@@ -14,12 +14,22 @@ img {
 }
 .logo {
   cursor: pointer;
-}
-
-.info {
-  cursor: pointer;
   justify-content: space-around;
 }
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  width: 900px;
+  height: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.info .categories {
+  display: flex;
+  justify-content: start;
+}
+
 .info:hover {
   color: rgb(89, 89, 252);
 }
@@ -31,7 +41,6 @@ img {
   width: 8rem;
   background-color: rgb(44 224 128);
   border-radius: 0.25rem;
-  font-family: CeraPro, sans-serif;
   border: none;
   cursor: pointer;
 }
