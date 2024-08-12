@@ -1,32 +1,37 @@
-.navbar {
+body {
+  margin: 0px;
+}
+
+.header {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 20px;
-  text-align: center;
-  color: rgb(27, 9, 90);
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
 }
-.left-nav {
-  justify-content: space-between;
+img {
+  height: 50px;
 }
-.right-nav {
-  justify-content: space-between;
-}
-button {
-  background-color: rgb(57, 219, 122);
-  border: none;
-  color: rgb(7, 7, 54);
-  padding: 14px 16px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: "cera Pro" sans-serif;
+.logo {
   cursor: pointer;
-  border-radius: 4px;
 }
-button:hover {
-  background-color: #45a049;
+
+.info {
+  cursor: pointer;
+  justify-content: space-around;
 }
-button:active {
-  background-color: #3e8e41;
+.info:hover {
+  color: rgb(89, 89, 252);
+}
+.button1 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(5, 5, 55);
+  height: 2.8rem;
+  width: 8rem;
+  background-color: rgb(44 224 128);
+  border-radius: 0.25rem;
+  font-family: CeraPro, sans-serif;
+  border: none;
+  cursor: pointer;
 }
