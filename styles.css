@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  padding-bottom: 1000px;
 }
 
 .header {
@@ -13,21 +14,22 @@ img {
   height: 50px;
 }
 .logo {
+  display: flex;
   cursor: pointer;
   justify-content: space-around;
+  width: 100px;
 }
 .info {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex: 1;
   cursor: pointer;
-  width: 900px;
+  width: 600px;
   height: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .info .categories {
-  display: flex;
-  justify-content: start;
 }
 
 .info:hover {
@@ -107,4 +109,39 @@ p {
 }
 .italic {
   font-style: italic;
+}
+
+.understand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(3 49 75);
+  font-family: CeraPRO, sans-serif;
+}
+circle {
+  fill: none;
+  stroke: blue;
+  stroke-width: 4;
+}
+.para2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.video1 {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+}
+h3 {
+  font-family: CeraPRO, sans-serif;
+  color: rgb(3 49 75);
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+.para2 p {
+  font-family: CeraPRO, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(58 70 73);
 }
